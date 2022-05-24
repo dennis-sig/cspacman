@@ -8,7 +8,8 @@ jobs:
       uses: Software-Improvement-Group/sigridci@v1.1.0
       with:
         customer: "opensource"
-        system: "cspacman_dennis"
+        system: "cspacmandennis"
+        source: "nonexistent"
         targetquality: "3.7"
         publish: true
       env:
