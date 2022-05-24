@@ -1,7 +1,5 @@
 name: "Publish to Sigrid (Marketplace)"
-on:
-  push:
-    branches: [$default-branch]
+on: push
 jobs:
   sigridci:
     runs-on: ubuntu-latest
