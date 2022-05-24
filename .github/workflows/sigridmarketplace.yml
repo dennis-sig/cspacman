@@ -9,7 +9,7 @@ jobs:
       with:
         customer: "opensource"
         system: "cspacman_dennis"
-        targetquality: "3.6"
+        targetquality: "3.7"
         publish: true
       env:
         SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_TOKEN }}"
