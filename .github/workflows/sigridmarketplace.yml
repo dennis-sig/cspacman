@@ -5,12 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Sigrid CI
-      uses: Software-Improvement-Group/sigridci@v1.1.0
+      uses: Software-Improvement-Group/sigridci@v1.3
       with:
         customer: "opensource"
         system: "cspacmandennis"
-        source: "nonexistent"
+        source: "."
         targetquality: "3.7"
-        publish: true
       env:
         SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_TOKEN }}"
